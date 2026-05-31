@@ -1,0 +1,32 @@
+# ============================================
+# D?PENDANCES ESSENTIELLES - Pipeline Vid?o
+# Compatible Python 3.10 + Docker Linux
+# ============================================
+
+# Vision & Traitement d'images
+opencv-python-headless>=4.9.0
+pillow>=10.0.0
+
+# OCR
+pytesseract>=0.3.10
+easyocr>=1.7.0
+
+# Audio & Transcription
+openai-whisper>=20231117
+
+# D?tection d'objets
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# LLM & API
+google-generativeai>=0.3.0
+requests>=2.31.0
+
+# Data & Export
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Utilitaires
+python-dotenv>=1.0.0
+numpy>=1.24.0
